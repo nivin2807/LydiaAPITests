@@ -14,7 +14,7 @@ public class GetUser extends ExtentManager {
     @Test
     public void testGetUser() {
 
-        Response response = client.get("/users/2");
+        Response response = client.get("/users");
 
         test.info("Status Code: " + response.getStatusCode());
         test.info("Response: " + response.asPrettyString());

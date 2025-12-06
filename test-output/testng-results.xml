@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-06T17:06:33 CET" name="API Automation Suite" finished-at="2025-12-06T17:06:35 CET" duration-ms="1191">
+  <suite started-at="2025-12-06T17:34:03 CET" name="API Automation Suite" finished-at="2025-12-06T17:34:05 CET" duration-ms="1086">
     <groups>
     </groups>
-    <test started-at="2025-12-06T17:06:33 CET" name="API Tests" finished-at="2025-12-06T17:06:35 CET" duration-ms="1191">
+    <test started-at="2025-12-06T17:34:03 CET" name="API Tests" finished-at="2025-12-06T17:34:05 CET" duration-ms="1086">
       <class name="Lydia.LydiaAPI.tests.GetUser">
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Lydia.LydiaAPI.tests.GetUser@247bddad]" started-at="2025-12-06T17:06:35 CET" name="startTest" finished-at="2025-12-06T17:06:35 CET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Lydia.LydiaAPI.tests.GetUser@247bddad]" started-at="2025-12-06T17:34:04 CET" name="startTest" finished-at="2025-12-06T17:34:04 CET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="testGetUser()[pri:0, instance:Lydia.LydiaAPI.tests.GetUser@247bddad]" started-at="2025-12-06T17:06:35 CET" name="testGetUser" finished-at="2025-12-06T17:06:35 CET" duration-ms="131" status="FAIL">
+        <test-method signature="testGetUser()[pri:0, instance:Lydia.LydiaAPI.tests.GetUser@247bddad]" started-at="2025-12-06T17:34:04 CET" name="testGetUser" finished-at="2025-12-06T17:34:05 CET" duration-ms="90" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [403]]]>
@@ -69,11 +69,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- testGetUser -->
       </class> <!-- Lydia.LydiaAPI.tests.GetUser -->
       <class name="Lydia.LydiaAPI.tests.CreateUser">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:Lydia.LydiaAPI.tests.CreateUser@510f3d34]" started-at="2025-12-06T17:06:33 CET" name="setupReport" finished-at="2025-12-06T17:06:33 CET" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:Lydia.LydiaAPI.tests.CreateUser@510f3d34]" started-at="2025-12-06T17:34:03 CET" name="setupReport" finished-at="2025-12-06T17:34:03 CET" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Lydia.LydiaAPI.tests.CreateUser@510f3d34]" started-at="2025-12-06T17:06:33 CET" name="startTest" finished-at="2025-12-06T17:06:33 CET" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Lydia.LydiaAPI.tests.CreateUser@510f3d34]" started-at="2025-12-06T17:34:03 CET" name="startTest" finished-at="2025-12-06T17:34:03 CET" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="testCreateUser()[pri:0, instance:Lydia.LydiaAPI.tests.CreateUser@510f3d34]" started-at="2025-12-06T17:06:33 CET" name="testCreateUser" finished-at="2025-12-06T17:06:35 CET" duration-ms="1033" status="FAIL">
+        <test-method signature="testCreateUser()[pri:0, instance:Lydia.LydiaAPI.tests.CreateUser@510f3d34]" started-at="2025-12-06T17:34:03 CET" name="testCreateUser" finished-at="2025-12-06T17:34:04 CET" duration-ms="965" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [403]]]>
@@ -133,7 +133,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Lydia.LydiaAPI.tests.CreateUser@510f3d34]" started-at="2025-12-06T17:06:35 CET" name="tearDown" finished-at="2025-12-06T17:06:35 CET" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Lydia.LydiaAPI.tests.CreateUser@510f3d34]" started-at="2025-12-06T17:34:05 CET" name="tearDown" finished-at="2025-12-06T17:34:05 CET" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

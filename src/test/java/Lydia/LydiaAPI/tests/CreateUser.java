@@ -18,7 +18,7 @@ public class CreateUser extends ExtentManager {
         var payload = """
                 {
                     "username": "testuser",
-        			"email": "",
+        			"email": "test@gmail.Com",
         			"password": "pass123"
                 }
                 """;

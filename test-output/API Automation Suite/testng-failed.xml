@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="API Tests(failed)">
+    <classes>
+      <class name="Lydia.LydiaAPI.tests.CreateUser">
+        <methods>
+          <include name="startTest"/>
+          <include name="setupReport"/>
+          <include name="testCreateUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Lydia.LydiaAPI.tests.CreateUser -->
+      <class name="Lydia.LydiaAPI.tests.GetUser">
+        <methods>
+          <include name="testGetUser"/>
+          <include name="startTest"/>
+          <include name="setupReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Lydia.LydiaAPI.tests.GetUser -->
+    </classes>
+  </test> <!-- API Tests(failed) -->
+</suite> <!-- Failed suite [API Automation Suite] -->

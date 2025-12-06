@@ -1,0 +1,345 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">déc. 6, 2025 05:06:33 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCreateUser</p>
+            <p class="text-sm">
+              <span>17:06:33</span> / <span>00:00:01:027</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCreateUser</h5>
+<span class='badge badge-success'>12.06.2025 17:06:33</span>
+<span class='badge badge-danger'>12.06.2025 17:06:35</span>
+<span class='badge badge-default'>00:00:01:027</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>17:06:34</td>
+        <td>
+          Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>17:06:35</td>
+        <td>
+          Response: <html lang="en-US">
+  <head>
+    <title>Just a moment...</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="robots" content="noindex,nofollow"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width &lt;= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style>
+    <meta http-equiv="refresh" content="360"/>
+  </head>
+  <body>
+    <div class="main-wrapper" role="main">
+      <div class="main-content">
+        <noscript>
+          <div class="h2">
+            <span id="challenge-error-text">Enable JavaScript and cookies to continue</span>
+          </div>
+        </noscript>
+      </div>
+    </div>
+    <script>(function(){window._cf_chl_opt = {cvId: '3',cZone: 'reqres.in',cType: 'managed',cRay: '9a9d0809da9e4aff',cH: 'C5eju855yMamYvCwRqTjTUTZAJ_8nvHA9eJx7DC_7HQ-1765037195-1.2.1.1-yTUwXmarmKfqh9L8DZ8RUblQlS.fKD71yzWmlEEfebQnyVnlc73kOqiukUoG9uxg',cUPMDTk:"\/api\/register?__cf_chl_tk=KP2e_ih5nQUZxCrIqZo0b1h1YgQx2M6aItenVc.HVJU-1765037195-1.0.1.1-QETmOg4h95rcvrUVHMflpxtYmNPKb2effJ.YDI5C85E",cFPWv: 'g',cITimeS: '1765037195',cTplC:0,cTplV:5,cTplB: '0',fa:"\/api\/register?__cf_chl_f_tk=KP2e_ih5nQUZxCrIqZo0b1h1YgQx2M6aItenVc.HVJU-1765037195-1.0.1.1-QETmOg4h95rcvrUVHMflpxtYmNPKb2effJ.YDI5C85E",md: 'WCYBkvxXBfW02WTy4_4XfnpcZ4DkXl_ZV8bB0W_LJ94-1765037195-1.2.1.1-9O.KdZvksaFHdEi6tJ0hdDZjGle5l9lCX.ZMJ680IRHOiGJvK5R8V4lf4EoMv8MrvL2ffzz3ktMusxofccbE2WW7AwApXtafOQf4CU.qR8uDlTM3dLVmcVIgh6Z.xZlfWQV2FjgHO.9qQTuOua_0KvE0mkk2_FJg5sP_AdPaucgoXeTAqhzwGAhfS3UIyAglWiJvVetTCl2US3fkrMfwycMxjBq07zwRYcNxyFyGdzhob3IxOamtRoj1WnCR_mxyEc4JeGgjwB4FBOC3txhCKgGzzLtufnFtYUTlB4.ccc7cI8m_UHjegZwi6EvLK3I.Vg9VIDL8VGHbrUd6W6WFRIAkZOEym1lqKssLhHZVuF29ZaHf65qrjbnb7ajVg3SFRdlpzf6yPlzMUJkSUKBVhxSQGHZWFeq0TfzFX.69FRbgBZeLbUAy6eFZ2zzrPhNZUb7E4_W7ykNBDBdhieyS4dw0kEA6Tyt900f1lLvExyixynzklzPbYEhKItk47cftrkKpQmGdrLL4o.Q_45rENa8j0ndfCb4mT5Q21F68nnVpoVi6Tobk17xnBsPxaU76ooMVFgcPQJnFwgizcQ_SMigz63aIceI9amtrR4ukQhmkXS8jES7tr3vPZDOQtGVakI9IIHxvgR6UK4SvYPKHTC0E4rTO12fclUAOHyXn53d.MqYH3yT4pOOSu0_OlueTg1eAbsJXOqt.U4W3X42sz9UwgNHF07PQdLJ4PcrVwRrHAI3bJh4NsGYIZ99_hKUbVZCcg2ojUHpJPiAjfh5f4UVy9k8lWSpt1_Uk4tXmYEMhUmsWhtg9dc6Ili8Y1JZSbkIRgimBeCuoESUlYe0mSRc1oCqP7tnV1flJ5LolfzKhbjV3ovzDKVTmPNOPll.UMygfrvBoX8sxxnST0u01CRnCRdXGdysq4yv4fOOoXOneUhcAZ6xk14G1hfDmZ4FH',mdrd: 'oiNhYtaEHZjEnwPUY.4cD33uk8CLg4RWoOQeTAtl4cE-1765037195-1.2.1.1-Mhch.YqbdV4.iDBNAsWHb7Qy3yZembV9EKiHG9C0WzlwfBe0d1ze6DchuNkMfHJ2kS3EivKnW58Fbz7JK_lOzvoXQnSMnczYxshiRoz_rVgvHPgtVTWrtyDn8ehO6JFe5uwIbL7mYB9Icw8M.ytm9M.aUnThnrncVu11P23nMOhKXB4r8URzebIMwmmRQdd2.xwvUlTxk6CgwBTQbdUyEToao0nUBkqft0KyjaxJBgssJh7NB_1W0a8smKZwJKv2ipIT_YWDCkNLgEZMWav.aEf_JdJKcYOE1r7.9PsxLh5zzXDFyepVpbWPlV4yERMzutjpMAzLivtHPvypu6itc71r9bp9yKA4LNF3SjFFndGgUByqw18NuhcAQ098.hgl0izrTjro02wkgz9IPYA.TkRDrz6xw1Rx51TZ_jIOKSyYVGHe67Kx8Kf.YPO_n1SDp.FvP4ZtxYXZ.Ldct2dogikiOdCS5IMy3PtK7bJYEy25fjXnNrWwWP6K22IVrrzYaqMYAYHeWGWzR_AjgvKh6KDR3e1eECs3T6RBWi1P4NuUIeM_D3sWBIBKLR3Aygd6Y6p4bIGE_6kavbE_3v9XyB49c4M7ATP.YBPYGFtYotv7tORhvb6R3cPwaKOpgQZcJdr6ht7.9WxpvtulJkQASH7Cpdxny4nDWApYp6qyvN11pKZ8uQYeJbSJCKKGO_7xB8taj60VjXEf7HVwKB1LuAMFXGy9Hm8IRjbzwNk4PQKcyTk.4nUqyZfMPU9UebCJdkFw5y.pWCQPi70xqFi97sm2PZqWoud_VgQ4soKMnAQKWjlUMgdQGj4QnVivahcMV_yVTwZ2q351O5S8m8RSXnLyxAW9mDDlIicuP5jC84LfBkUvFZfQAmzrBNBBrqW37P6DGIiZe4j.vKivQo0GpvBGn8Rm8wmn1go7EZbsXA0RQjgiE3YbGBcaqiTDCatLk1VX6VVxNjyB3pM7IBet0WGXjWOmsAtdl.0zxU59sPPM0SzlHZzsS_tF1Jl_DZbDS8MZgbYQqmSKz26MadlYFEaQMLPeai0kH7LNvGgdp4o.zzDgjod6iucwqRU8lEhl5wslOVtnjmlHYfVATcPpg_OEPCy0.ZRKfow_Cg6qa9HJ0fxfjTn31RaUSK9t3VtIrWl_qGvevZjzjrTHJk8q47kq3v9OVWpdlpbZOVApZ7F4qyrkJ3_4OCuz3hxvLhQicud2Q0CxJc79Lp__nTSfAvf2V4B9VrSK5aG2Cb0e6InoojlrqC7H5ljhBNni5h7dHFmvU6CjbqVZevgUoK_is8tXk75lRlxf1MRSABu8xa1Z3mjh3TpiELolaQgNVz_WQz3N86CBJt_1YiN99a5.hLKolc2ookZb_8Ubg98e2g6mFO3RM5xeNUVx8gfl71prYAPnk4kOQSvBheVSsUwASH9A707NszrXNJ.i7BjwdHlzZZBZFT5y4GecQMzDtE29Vlid5VoOO4bklqqSrDInFd4Q50HbmhpsiXAEcowa94aufgz5DRbhZUgmj3ZRmzLkQc.WJZikJLEe8OCqlSU2ytnMLLKYr7xU_SvaaZEFN.s.9Uzq63NupNgGK5oqDVpmmZ6PFG62bMLjp3D_4PXPlly9RcioOJ08d1s4mRDDemZRznUJdPtRTChGhADg4UOqYsHYAbU_YpQ_Sf9gIuITgP6Q8R8wuGUcASy4yfx8Aiatt5XuJqTldl0R_mw6uP8h0pgo6hKygEKa8s18lfedsFIGMsX1TtPcX9lbK4wMPPmc0aRfJaAG8Re6hYGGq8rXp7_QlSo1QiktuJBFmQCVd9zSO_IeIrOH7XdUpEtqWH9iWaAL9y3lGjvIS4sZlwYX2NbhJkc8Z7aJYfMUk5kzcsg8LRp6JGYXp3jOWZWMok0XlyV36PK23.BrlczBek8c8IOor0qV15J4wc8BCkAW1IY2BzD48qSLy1kQMOAMrOF7R85WwaqE7qePb.9g8pwXXJBO4N65PvfpS3V5nsnOQnK0nHdYtf.8uBtJDXfkRwvo0Qc8a6fHJ3JKe9h7JuOaUneU9SB1254YcI5Doezpk0PzlEQ1rTC.V35hliaHGD1cZ6sfnXQxq9z_gMCd5JpaCi1jeONojXTe8iApENvv5JFnsO4dXUxtItJjrGWgBsbBGPg9XfNU67KrEao2Y.p3t_n1ZPrHwjRVkfnpUO1RWASW7As2.8R6.S5UHZHzMIv_dNEO0xMuUYT3_abiutLCBnsVudRgK9ODyxkCJhtxKto2WHrgTRo9e48UKKfeugpTxQaYzfn5S249pkbhsZlNWhRUPkGXC4KRmLt25MBtA7i6TE7_o2F9yzVjxBeQXl2U2LBWlMmKgO07pJ7SBAiI2KDACCQXbSLFk3uYAGyAxUqpWihlLt1rrGD0nFaxj2bi5fPgU7ve8iJtVVd6fDeROoRJFiF4tu290jjx3rdsUmn9BB1xEosEc7WjfEjm_TUyt_Uk_pY6Xa5.Lke29kJo9SCpSmjoXm.gQgW8Os552t9TKTL0_ZMjw0Q7.xWsPJjaPC.C3COTJld_u362aA75XcP1Gw1Vqj8.SwONuYjCFeLlUubMPMQ.SaH72Q126sOPGUbRrqkRz.ilq97Lg2TtaC9f8XPS8apkCXDtWa1uXA',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9a9d0809da9e4aff';window._cf_chl_opt.cOgUHash = location.hash === '' &amp;&amp; location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' &amp;&amp; location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history &amp;&amp; window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"\/api\/register?__cf_chl_rt_tk=KP2e_ih5nQUZxCrIqZo0b1h1YgQx2M6aItenVc.HVJU-1765037195-1.0.1.1-QETmOg4h95rcvrUVHMflpxtYmNPKb2effJ.YDI5C85E"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>
+  </body>
+</html>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testGetUser</p>
+            <p class="text-sm">
+              <span>17:06:35</span> / <span>00:00:00:132</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testGetUser</h5>
+<span class='badge badge-success'>12.06.2025 17:06:35</span>
+<span class='badge badge-danger'>12.06.2025 17:06:35</span>
+<span class='badge badge-default'>00:00:00:132</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>17:06:35</td>
+        <td>
+          Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>17:06:35</td>
+        <td>
+          Response: <html lang="en-US">
+  <head>
+    <title>Just a moment...</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="robots" content="noindex,nofollow"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width &lt;= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style>
+    <meta http-equiv="refresh" content="360"/>
+  </head>
+  <body>
+    <div class="main-wrapper" role="main">
+      <div class="main-content">
+        <noscript>
+          <div class="h2">
+            <span id="challenge-error-text">Enable JavaScript and cookies to continue</span>
+          </div>
+        </noscript>
+      </div>
+    </div>
+    <script>(function(){window._cf_chl_opt = {cvId: '3',cZone: 'reqres.in',cType: 'managed',cRay: '9a9d080b5bc03cb9',cH: 'HuGWfy6nhVvn_FWcGnKrzwngO8Tw6GNpmlsIdazww84-1765037196-1.2.1.1-xYkTDA0OiqfbVPxiH2n.SGrCDpOWvvbc9sP_XgRWo9_gt.j6tbknPL95BfV4jpIQ',cUPMDTk:"\/api\/users\/2?page=1&amp;per_page=5&amp;__cf_chl_tk=.zVkkA.u_y_AfKc6yZnU7_Xtw9m8lqVE8YxIQ4TkERA-1765037196-1.0.1.1-2rUJ9ARLWG4gNZeTHc.Nb6MPTeuWqC7XOpS88KeIjuA",cFPWv: 'g',cITimeS: '1765037196',cTplC:0,cTplV:5,cTplB: '0',fa:"\/api\/users\/2?page=1&amp;per_page=5&amp;__cf_chl_f_tk=.zVkkA.u_y_AfKc6yZnU7_Xtw9m8lqVE8YxIQ4TkERA-1765037196-1.0.1.1-2rUJ9ARLWG4gNZeTHc.Nb6MPTeuWqC7XOpS88KeIjuA",md: 'zxNdw4KbRLOwIRjsqA6F7YgAPSA81dPGda6HfNZcfN0-1765037196-1.2.1.1-vWvOqjKc1Y.aUSritabx0gYEnna1qI_4Kj0PxjBiQscrtSJVx40M3sij_DlkjkImBH0x1JD_NcttiBPwKQJhP1100EzFg3sgwH5Rh7u_dEyFISZLAQu7fbuSqMPWyNSZfhdaFNymalpcqGIC2g3urnpA7250dCp9RkCpOjB0dSbr_m8E6b0pAxfNLiW61ZB6K.JZ5apHigU87ilL8UpaClGzeJ_jsYkul6Dec2rQbQRcNNbvu4.yELFxZ1j4YyCVj1USH1O2MqttJ9BTt3HDFeD2UxhnY0sDHEFzjUTS9OzH7Z3MC8LY.R0bw0ZevLC4o0L74xbI9d57001knm3LRiIiqTFt_AZYISf9TnJj_hm9Oz8gZdQSLLn_aRY7J4E0rKXZsDc1pCSFoxYn.Pt00A.6qpCJjJJfJ9.UpExD0W51aczZWGVuRPHqC8KkV9RbtZsy07rXMCxJaSLtEO1BI2Uaamf8V.BnHvhDnyCu7gk9WMNAg1VEVcAZCgSc3gd_AIM1jfW9J3CBZ20WIlOHej0wbF1hgz0o2jfw7t5Jlch2VQ2ihx7CI2LA.4phdlP1hsO4zumz0f7X8C.sxKy99M_8J85HEgXxWVYebF.RcFYETsC3Oca.wKuGNx6CB2MYocw2EFwEJILI5n82mT0II.pcM5IniXg8VxnsxdFda3xd.f59zzWcr8.hFQay1eNJimxdEozuo78.GVj49XMsuBUpo8.kiQbJunF2k6pwbycb80SeYXgQa9fRAhiAOcRkOyHSqjXML242W6BxyUPPZlFNv3hhg7A_AQJUoqtf_lN3g4gVG5TEb1GfmB518HgTNXOnwFMPVyXW6eGMk081_aGrkHO2it_EnBqrISuo7.c3TJnVMhyWoorP2i5XhWPsxkfQt2fHQ5sgGJPML8_sG4sxG61jnCZJdDyUgmT8XAFnNKSP0aa8xN9MxfEFqNlTKELna2aOptYhuzemxQhjZA',mdrd: '.3SPiSDaS8xLikzx_gQrz42bOW2aCQkiGAcHtXWPrSA-1765037196-1.2.1.1-8eKbaZxWBr04akjkJIC42Xim.IwOhJd0IB7qPSRMsRw0G6UXm.SHEy8cUBCAvOt0YKD65M12gE7oJitDdaLLrAJc6DiiaV8gKB7MOfCkMfDO2Mh5ANgJxMZtnck2ys2EQesk9a6H8d.6b7xuy_YELn4Hd9I7Y3rDfgyDcoEeDxARGTIJk_7X7zchNIrP08weJIyNr1ONny_dltN2SZ7BIR3W.Fi2xDK3iTNy9Kg1j.tHMUUzvXfU52YxIdxiO_pftor.YcSUBnCLMZisQQZ3AuRjzQJaX4aDh6dpFdXS3hRpqYYeSKDAVLE_fMLCtmFxtUUc4JcuiFDYUyzN.iYXP0ayp5YGHYzQ2jqbuhorx726sKcvBvfapR11d.ExZqjBpQ400jfdRk_c_OkmQupdnvPTyEcLEqgJpbfMEwNvv90sJm7HQPSkmZOkRVS5Cc5U2gxwMyHrPjnmGMBITgpuvP6B3AsBI1vG.UoXKC40r82RcnbcBfhk3DfPANxVRcw1Gyt.yNYEl10OP.SwKGp9sVJMjDtSSBiFJ.AjOZ1vKNIMwRX3aUAhRrw.Xc68odXFkoOIBzl_ZVYhtBfeE1gbrV3yWdq_5lePPbowoyZS6KLnc88L3CcKiat7mrSKQwQIxKH8VVpivEU0DzlG0CddXsZL1fcIVZX8ssKi8qxzQQZnlzuB2qSSfudBJWjSJVbv9QHgjhEa4c.N1NayHN_DStEo40oXi0WtkkWVmxtHCC3H.8fHKR20QJ_hKjS.bP_IxBNS1d714niM4tzJiMbvRNy06r.qhMBuchG6efyutKggGNKMJ6IY0kiXkTod.cnhXPKwrn_xJwPZ3cAYI6F3osnHVx4Hgg5kIh6Fm.lee6uhGgSz3.qu6R9e_9Y8xNpkWS0hHd22mcECgmDLzYLYEWlLdkALzY8UEUMhE_5DpDkQy9D6CkyTntMQC2vPNyPaiRQNx7HI7akerBsoOb9NNfK20fadf4H55_DVQQarHReOBV2FXgha8qWseJU1Py1aFMGe_j9XqOd.FOeyKxw.2bEEJVfAivpfZbHkGXj_PUhOy3OiuqJflXXITM05Crxx7m4IvhAvHgHRPL3Bw_7uWP8113hXqQiCYrGAUKq51XUoOVo8qi3qXCyU270y2PExdZCa8ARFnj2Ofrw9z2ckmZ4QWWaAQERdFQbGk5eGi7jkKuGN1nag8APCyKgnvhd1HqyFKEl3bnXIdXQ5y.QW2ReqSYt.EB44LNd1dmKzuyeWdi3g759QWqX.9R9KM_VQZ.Z8r8B4CeSNoKwIS74tQc9YHmx4Z9hfkewpGp9lfRRe_RY7iroc9MDg9lPZ5QTvEe4k3nckjzqI4hO83wyGQkYu89YuqFUZYtJgZUOmjxz_dCO5oPFvhMX1OJ8sFEnqEGao8JnwmdPPNG2ddIeIxoHnKDEzbmta6otyk4i8HU_X_yJpC2oysX6ui0P1GUYBj5970ZquwKpPAkXoKMlYXph8s9gghMoy8VAIJCHkPVkk9cSaC1iybmHYHIkA1rTkYHNHs0ifLEhQvvhLcHXzOfrKODB3SllTGoDi2qMpcWsNnY_6H2sgZRKaRu06_qBXi.HyvUpvoe5uW67EUIyJxyoI0at57MCUfwrTlHZWvuyqsWkkO.eumvoRGPeGLaqIpdjSZbNWbAJDOwjpmTc17vt4cTddbUhfwhkBDVP2Lvj.UiuITOFup4Yt6WESk9hjTNJd_3qlaOHER.jyb08OGY1qBr6CSJHnaI3jwLjCMUYDeBQQloMPKvKCzdqiF_hSRlEfYspzSXOZgmc5g1bge1Goiu2CS2yHdi31CooUhvYvc2CHXIXgo1R_2y6B4kSQaEAEoYEfFmEVQTVc3.Vm7ZlaCahnzUPeAN.2Z2rvAyAJOEmjrA5r7nhlLm_SCP4c_djfvlr3yIAGZtywmWivRzoiaMoO529I68SM26v6qIXE.55Ufg6lRQ0elozkSgRQ1iQDoyKgXytAHBOxUuzHmtsi1NPsYS5DLu8PWYHmK6yaVSfLOFZBEdbmw4XOoYuMVB.CLGh7BFHkz.bIAjXX3_mhqU.Vqbu3.soQ2YeHsvm2bYsZuTShYPQJiV7.xsbkUacSeDRGj4jTc7qF6pBjPWrEeF_L0xL0MWtD5nb1bgoFVqmmfKTBw8lBQ89CJMJzl7ByJFVUwzwLBcqvmX2r_BjjsAcZK8pG2PxS1ZS6u7SzDTnb1VPALRfpmxp_2v_6T2R1TyY5kbKGgFmhcv0UsyI.swyO5EFdUrcgm5NUWAO9I9Flesd3d3AHy2aIqoOnfpGDZ.q8uxoEj.jC9vkFI1i9Z9UuxCot2JYW6Ker6u7hV9DigiJlVamj6H0HSI2jmvmswaALWkU4RwRv8b4_4.au5gujHX.aZU8GqFcGf_Vhm6uZqJ3jcz.ijtZ1FJyU8Ve4JH2szWebE6oMYw3alwH2IbJsaU.atvAo8XO9.yrMgxXpWpfJkKPUtE1aVyXbJdGijXGl8scmM3hbL.4Qg89Qe1guYSymFyYtPZ9XP6liz9kdMsGOSoTJMURVctcD',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9a9d080b5bc03cb9';window._cf_chl_opt.cOgUHash = location.hash === '' &amp;&amp; location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' &amp;&amp; location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history &amp;&amp; window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"\/api\/users\/2?page=1&amp;per_page=5&amp;__cf_chl_rt_tk=.zVkkA.u_y_AfKc6yZnU7_Xtw9m8lqVE8YxIQ4TkERA-1765037196-1.0.1.1-2rUJ9ARLWG4gNZeTHc.Nb6MPTeuWqC7XOpS88KeIjuA"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script>
+  </body>
+</html>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>déc. 6, 2025 05:06:33 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>déc. 6, 2025 05:06:35 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>4</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testCreateUser":1.027,"testGetUser":0.132
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 4
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
